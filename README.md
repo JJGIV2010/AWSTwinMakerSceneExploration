@@ -6,11 +6,8 @@ You can reference the same asset multiple times on the scene.
 
 ![Scene File Diagram](sceneDiagram.png)
 
-import json
 
-# Import the necessary classes and functions
-
-# Class definitions
+# Class definitions and Example
 
 ## Component
 ### Parameters
