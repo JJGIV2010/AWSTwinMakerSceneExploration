@@ -118,7 +118,27 @@ import json
 # Create a scene object
 scene = Scene()
 
-# Add nodes, components, cameras, tags, rules, etc. to the scene
+# Add nodes to the scene
+node1 = Node(name='Node 1')
+scene.addNode(node=node1)
+
+# Add components to a node
+node1.addComponent(type='ModelRef', uri='path/to/model.glb')
+node1.addComponent(type='Light', intensity=0.8)
+
+# Add cameras to the scene
+camera1 = Camera(name='Camera 1')
+scene.addCamera(camera=camera1)
+
+# Add tags to the scene
+tag1 = Tag(name='Tag 1', content='Hello, world!')
+scene.addTag(tag=tag1)
+
+# Add rules to the scene
+rule1 = Rule(name='Rule 1')
+statement1 = Statement(expression="temperature > 30")
+rule1.statements.append(statement1)
+scene.addRule(rule=rule1)
 
 # Generate the JSON representation of the scene
 scene_json = scene.to_json()
