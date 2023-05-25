@@ -1,6 +1,9 @@
 # TwinMakerSceneTools
 Exploration of AWS Twin Maker Scenes; functions associated with scene manipulation - Examples might be adding nodes, children of nodes, motion indicators.
 
+You will need to organize and upload your reference GLB's and keep their URI's for usage with adding new nodes to the scene. 
+You can reference the same asset multiple times on the scene. 
+
 ![Scene File Diagram](sceneDiagram.png)
 
 import json
