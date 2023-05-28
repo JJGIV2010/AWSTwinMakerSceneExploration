@@ -1,4 +1,4 @@
-# TwinMakerSceneTools
+# AWSTwinMakerSceneExploration
 This is some exploration of AWS Twin Maker Scenes; with some functions associated with manipulating the scene json file directly - Examples might be adding nodes, children of nodes, motion indicators.
 
 You will need to organize and upload your reference GLB's and keep their URI's for usage with adding new nodes to the scene. 
